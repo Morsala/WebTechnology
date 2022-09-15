@@ -14,8 +14,14 @@
 
 Вот список расширений, который использую я:
 
-+ Auto Rename Tag - автоматически переименовывает парные HTML/XML-теги. https://habrastorage.org/getpro/habr/post_images/907/751/98c/90775198ca9e39aa2dcfca117a35596c.gif
++ **Auto Rename Tag** - автоматически переименовывает парные HTML/XML-теги. ![](https://habrastorage.org/getpro/habr/post_images/907/751/98c/90775198ca9e39aa2dcfca117a35596c.gif)
++ **Highlight Matching Tag** - выделяет парные теги. Очень удобно, что найти конец тега, кликнув на его начало ![](https://avatars.dzeninfra.ru/get-zen_doc/1893760/pub_5ed6803474a77b458daa982f_5ed680472625bc1747b140aa/scale_1200)
++ **htmltagwrap** - Заключает ваш выбранный блок текста в HTML-теги. ![](https://miro.medium.com/max/1308/1*GCIxncPKHj8V1q2CXj2lsg.gif)
++ **Live Server** - один из самых полезных плагинов, который умеет создавать локальный сервер и автоматически обновляет нам страницу при редактировании. ![](https://i1.yunduanke.com/i/9DDK1K57)
+
+Если хотите, можете посмотреть еще расширений для большго удобства.
 
 ## Начало работы с GitHub
 
-Чтобы начать работу с GitHub, вам необходимо 
+Чтобы начать работу с GitHub, вам необходимо скачать Git для вашей ОС. Для тех, кто использует Windows, скачать его можно [тут](https://git-scm.com/download/win) по первой ссылке.
+
