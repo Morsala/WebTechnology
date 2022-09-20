@@ -1,0 +1,49 @@
+button {
+  height: 100px;
+  background-color: chartreuse;
+  border: 2px dotted red;
+}
+
+header {
+  background-color: gray;
+}
+
+body {
+  background-color: coral;
+  color: blue;
+}
+
+
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  border: 1px solid black;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  background-color: white;
+}
+
+.red {
+  color: red;
+}
+
+#ital {
+  font-style: italic;
+}
+
+b {
+  color: yellow;
+}
+
+img {
+  width: 100px;
+}
+
+footer {
+  background-color: grey;
+}
