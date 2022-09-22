@@ -1,0 +1,37 @@
+header, main, footer {
+  width: 70%;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  height: 50px;
+  display: flex;
+}
+
+section>img {
+  height: 150px;
+}
+
+.main_menu {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  display: inline-block;
+}
+
+.main_menu>li {
+  display: inline-block;
+}
+
+.main_menu>li>a {
+  text-decoration: none;
+}
+
+#logo>img {
+  width: 50px;
+}
