@@ -1,0 +1,15 @@
+button {
+    width: 200px;
+    height: 70px;
+    font-size: 28px;
+}
+
+.light {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.dark {
+    background-color: grey;
+    color: white;
+}
