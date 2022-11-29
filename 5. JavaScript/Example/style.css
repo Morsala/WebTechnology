@@ -4,12 +4,20 @@ button {
     font-size: 28px;
 }
 
+p {
+    font-size: 28px;
+}
+
+h1 {
+    font-size: 71px;
+}
+
 .light {
-    background-color: antiquewhite;
     color: black;
+    background-color: white;
 }
 
 .dark {
-    background-color: grey;
     color: white;
+    background-color: gray;
 }

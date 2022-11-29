@@ -1,19 +1,40 @@
 var btn = document.getElementById('btn');
+var cont = document.getElementById('content');
+var flag = localStorage.getItem('theme');
 
-// обработка события наведения на кнопку
-btn.onmouseover = function(){
-  // изменения содержания элемента
-    btn.textContent = "Hello";
+color_change(flag);
+
+function color_change (theme) {
+    if (theme == 'light') {
+        document.body.classList.add('light');
+        document.body.classList.remove('dark');
+
+        btn.classList.add('light');
+        btn.classList.remove('dark');
+
+        cont.classList.add('light');
+        cont.classList.remove('dark');
+    }
+    else {
+        document.body.classList.add('dark');
+        document.body.classList.remove('light');
+
+        btn.classList.add('dark');
+        btn.classList.remove('light');
+
+        cont.classList.add('dark');
+        cont.classList.remove('light');
+    }
 }
 
-// обработка события покидания мышкой кнопки
-btn.onmouseleave = function(){
-    btn.textContent = "Нажми меня";
-}
+btn.onclick = function () {
+    flag = flag == 'light' ? 'dark' : 'light';
+    
+    localStorage.setItem('theme', flag);
+/*
+    if(flag == 'light') flag = 'dark';
+    else if(flag == 'dark') flag = 'light';
+*/
 
-// обработка события нажатия на кнопку
-btn.addEventListener('click', function(){
-  // изменить тему посредством изменения класса элемента
-    btn.classList.toggle('light');
-    btn.classList.toggle('dark');
-})
+    color_change(flag);
+}
