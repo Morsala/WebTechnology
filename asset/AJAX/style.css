@@ -1,0 +1,43 @@
+li:hover{
+  cursor:pointer;
+  color: white;
+  background-color: grey;
+
+}
+
+footer{
+  background-color: rgb(172, 172, 172);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section{
+  width: 80%;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+}
+
+li{
+  list-style-type: none;
+  text-align: center;
+  flex-basis: 30%;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(172, 172, 172);
+}
+
+ul {
+  display: flex ;
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  justify-content: space-between
+}
